@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:newbrain-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -237,4 +236,224 @@ Wire Wire Line
 	5280 5660 5380 5660
 Wire Wire Line
 	5380 5760 5000 5760
+$Comp
+L +3.3V #PWR?
+U 1 1 57B595F7
+P 6035 1860
+F 0 "#PWR?" H 6035 1710 50  0001 C CNN
+F 1 "+3.3V" H 6035 2000 50  0000 C CNN
+F 2 "" H 6035 1860 50  0000 C CNN
+F 3 "" H 6035 1860 50  0000 C CNN
+	1    6035 1860
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6035 1860 5880 1860
+Text GLabel 5960 1960 2    60   Input ~ 0
+PH10
+Text GLabel 6245 2060 2    60   Input ~ 0
+PH8
+Text GLabel 5960 2160 2    60   Input ~ 0
+PH6
+Wire Wire Line
+	5960 1960 5880 1960
+Wire Wire Line
+	5880 2060 6245 2060
+Wire Wire Line
+	5960 2160 5880 2160
+Text GLabel 6245 2260 2    60   Input ~ 0
+PB10
+Wire Wire Line
+	6245 2260 5880 2260
+Text GLabel 5960 2360 2    60   Input ~ 0
+PE14
+Text GLabel 6235 2460 2    60   Input ~ 0
+PE12
+Text GLabel 5960 2560 2    60   Input ~ 0
+PE10
+Text GLabel 6235 2660 2    60   Input ~ 0
+PE8
+Wire Wire Line
+	5880 2460 6235 2460
+Wire Wire Line
+	5880 2560 5960 2560
+Wire Wire Line
+	5880 2660 6235 2660
+Text GLabel 5960 2760 2    60   Input ~ 0
+PG1
+Wire Wire Line
+	5960 2760 5880 2760
+Text GLabel 6235 2860 2    60   Input ~ 0
+PF15
+Text GLabel 5950 2960 2    60   Input ~ 0
+PF13
+Text GLabel 6240 3060 2    60   Input ~ 0
+PF11
+Text GLabel 5950 3160 2    60   Input ~ 0
+PB1
+Wire Wire Line
+	5880 2860 6235 2860
+Wire Wire Line
+	5880 2960 5950 2960
+Wire Wire Line
+	6240 3060 5880 3060
+Wire Wire Line
+	5880 3160 5950 3160
+Text GLabel 6240 3260 2    60   Input ~ 0
+PC5
+Text GLabel 5950 3360 2    60   Input ~ 0
+PA7
+Text GLabel 6240 3460 2    60   Input ~ 0
+PA5
+Text GLabel 5950 3560 2    60   Input ~ 0
+PA3
+Wire Wire Line
+	6240 3260 5880 3260
+Wire Wire Line
+	5880 3360 5950 3360
+Wire Wire Line
+	5880 3460 6240 3460
+Wire Wire Line
+	5880 3560 5950 3560
+Text GLabel 6240 3660 2    60   Input ~ 0
+PH4
+Wire Wire Line
+	6240 3660 5880 3660
+$Comp
+L +3.3V #PWR?
+U 1 1 57B5A045
+P 6030 3800
+F 0 "#PWR?" H 6030 3650 50  0001 C CNN
+F 1 "+3.3V" H 6030 3940 50  0000 C CNN
+F 2 "" H 6030 3800 50  0000 C CNN
+F 3 "" H 6030 3800 50  0000 C CNN
+	1    6030 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5880 3760 5975 3760
+Wire Wire Line
+	5975 3760 5975 3860
+Wire Wire Line
+	5975 3800 6030 3800
+Wire Wire Line
+	5975 3860 5880 3860
+Connection ~ 5975 3800
+Text GLabel 6240 3960 2    60   Input ~ 0
+PH2
+Wire Wire Line
+	5880 3960 6240 3960
+Text GLabel 5950 4060 2    60   Input ~ 0
+PA1
+Wire Wire Line
+	5880 4060 5950 4060
+Text GLabel 6240 4160 2    60   Input ~ 0
+PC3
+Text GLabel 5950 4260 2    60   Input ~ 0
+PC1
+Wire Wire Line
+	6240 4160 5880 4160
+Wire Wire Line
+	5880 4260 5950 4260
+Text GLabel 6240 4360 2    60   Input ~ 0
+RESET
+Wire Wire Line
+	5880 4360 6240 4360
+Text GLabel 5950 4460 2    60   Input ~ 0
+PH0
+Text GLabel 6240 4560 2    60   Input ~ 0
+PF9
+Text GLabel 5950 4660 2    60   Input ~ 0
+PF7
+Text GLabel 6240 4760 2    60   Input ~ 0
+PF5
+Wire Wire Line
+	5880 4460 5950 4460
+Wire Wire Line
+	6240 4560 5880 4560
+Wire Wire Line
+	5880 4660 5950 4660
+Wire Wire Line
+	6240 4760 5880 4760
+Text GLabel 5950 4860 2    60   Input ~ 0
+PF3
+Text GLabel 6240 4960 2    60   Input ~ 0
+PF1
+Text GLabel 5950 5060 2    60   Input ~ 0
+PI11
+Text GLabel 6240 5160 2    60   Input ~ 0
+PI9
+Wire Wire Line
+	5950 4860 5880 4860
+Wire Wire Line
+	5880 4960 6240 4960
+Wire Wire Line
+	5950 5060 5880 5060
+Wire Wire Line
+	5880 5160 6240 5160
+Text GLabel 5950 5260 2    60   Input ~ 0
+PC14
+Text GLabel 6240 5360 2    60   Input ~ 0
+PI8
+Text GLabel 5950 5460 2    60   Input ~ 0
+PE6
+Text GLabel 6240 5560 2    60   Input ~ 0
+PE4
+Text GLabel 5950 5660 2    60   Input ~ 0
+PE2
+$Comp
+L GND #PWR?
+U 1 1 57B5AA58
+P 6240 5760
+F 0 "#PWR?" H 6240 5510 50  0001 C CNN
+F 1 "GND" H 6240 5610 50  0000 C CNN
+F 2 "" H 6240 5760 50  0000 C CNN
+F 3 "" H 6240 5760 50  0000 C CNN
+	1    6240 5760
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6240 5360 5880 5360
+Wire Wire Line
+	5880 5460 5950 5460
+Wire Wire Line
+	5880 5560 6240 5560
+Wire Wire Line
+	5950 5660 5880 5660
+Wire Wire Line
+	5880 5760 6240 5760
+$Comp
+L +3.3V #PWR?
+U 1 1 57B5AD33
+P 2785 1845
+F 0 "#PWR?" H 2785 1695 50  0001 C CNN
+F 1 "+3.3V" H 2785 1985 50  0000 C CNN
+F 2 "" H 2785 1845 50  0000 C CNN
+F 3 "" H 2785 1845 50  0000 C CNN
+	1    2785 1845
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2785 1845 2855 1845
+$Comp
+L GND #PWR?
+U 1 1 57B5AECC
+P 3425 1845
+F 0 "#PWR?" H 3425 1595 50  0001 C CNN
+F 1 "GND" H 3425 1695 50  0000 C CNN
+F 2 "" H 3425 1845 50  0000 C CNN
+F 3 "" H 3425 1845 50  0000 C CNN
+	1    3425 1845
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3425 1845 3355 1845
+Text GLabel 2805 2045 0    60   Input ~ 0
+PB13
+Text GLabel 2525 1945 0    60   Input ~ 0
+PH12
+Wire Wire Line
+	2855 1945 2525 1945
+Wire Wire Line
+	2855 2045 2805 2045
 $EndSCHEMATC
