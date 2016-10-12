@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:newbrain-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -456,4 +457,60 @@ Wire Wire Line
 	2855 1945 2525 1945
 Wire Wire Line
 	2855 2045 2805 2045
+Text GLabel 2520 2145 0    60   Input ~ 0
+PB15
+Wire Wire Line
+	2855 2145 2520 2145
+Text GLabel 2800 2245 0    60   Input ~ 0
+PD9
+Wire Wire Line
+	2800 2245 2855 2245
+Text GLabel 2535 2345 0    60   Input ~ 0
+PD11
+Text GLabel 2805 2445 0    60   Input ~ 0
+PD13
+Text GLabel 2535 2545 0    60   Input ~ 0
+PD15
+Wire Wire Line
+	2855 2345 2535 2345
+Wire Wire Line
+	2805 2445 2855 2445
+Wire Wire Line
+	2855 2545 2535 2545
+Text GLabel 2805 2645 0    60   Input ~ 0
+PG3
+Wire Wire Line
+	2805 2645 2855 2645
+Text GLabel 2545 2745 0    60   Input ~ 0
+PG5
+Text GLabel 2815 2845 0    60   Input ~ 0
+PG7
+Wire Wire Line
+	2545 2745 2855 2745
+Wire Wire Line
+	2855 2845 2815 2845
+Text GLabel 2565 2945 0    60   Input ~ 0
+PC6
+Text GLabel 2825 3045 0    60   Input ~ 0
+PC8
+Text GLabel 2565 3145 0    60   Input ~ 0
+PA8
+Wire Wire Line
+	2855 2945 2565 2945
+Wire Wire Line
+	2855 3045 2825 3045
+Wire Wire Line
+	2855 3145 2565 3145
+Text GLabel 2830 3245 0    60   Input ~ 0
+PA10
+Wire Wire Line
+	2830 3245 2855 3245
+Text GLabel 2545 3345 0    60   Input ~ 0
+USB_N
+Text GLabel 2820 3445 0    60   Input ~ 0
+PH14
+Wire Wire Line
+	2820 3445 2855 3445
+Wire Wire Line
+	2855 3345 2545 3345
 $EndSCHEMATC
