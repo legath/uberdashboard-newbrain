@@ -1842,4 +1842,12 @@ Wire Wire Line
 Wire Wire Line
 	13710 6120 13710 5935
 Connection ~ 13790 6120
+Text GLabel 12525 5185 0    60   Input ~ 0
+PI9
+Wire Wire Line
+	12525 5185 12595 5185
+Text GLabel 12320 5285 0    60   Input ~ 0
+PH13
+Wire Wire Line
+	12320 5285 12595 5285
 $EndSCHEMATC
